@@ -1,0 +1,63 @@
+{
+    "route_intro": "British Citizenship through naturalisation allows you to become a British citizen if you've lived in the UK for a qualifying period (usually 5 years) and hold indefinite leave to remain or equivalent. As a British citizen, you'll have the right to live in the UK permanently, hold a British passport, and vote in elections. You must meet residence requirements, demonstrate good character, pass the Life in the UK test, and prove your English language ability. This is the final step in the immigration journey for many people who have settled in the UK.",
+    "faq_items": [
+        {
+            "question": "How long must I live in the UK before applying?",
+            "answer": "You must have lived in the UK for at least 5 years before applying (3 years if married to or in a civil partnership with a British citizen). You must also have had ILR or equivalent status for at least 12 months before applying."
+        },
+        {
+            "question": "What are the residence requirements?",
+            "answer": "You must not have spent more than 450 days outside the UK during the 5-year period, and not more than 90 days in the last 12 months. Time spent abroad can affect your eligibility, so keep careful records of your travel."
+        },
+        {
+            "question": "How much does British citizenship cost?",
+            "answer": "The naturalisation application fee is £1,500. If successful, you'll also need to attend a citizenship ceremony, which costs £80. You'll need to have already passed the Life in the UK test (£50) and English language test unless exempt."
+        },
+        {
+            "question": "What is the 'good character' requirement?",
+            "answer": "You must demonstrate good character, which means having no serious or recent criminal convictions, no immigration breaches, honest tax and financial affairs, and no deception in previous applications. Minor offenses may not prevent naturalisation depending on circumstances and timing."
+        },
+        {
+            "question": "Do I need to give up my current citizenship?",
+            "answer": "The UK allows dual citizenship, so you usually don't need to give up your current nationality. However, some countries don't allow dual citizenship, so check your country's rules before applying."
+        },
+        {
+            "question": "Can my children become British citizens?",
+            "answer": "Children may be able to register as British citizens depending on their circumstances. Children born in the UK after you became a citizen or got ILR are automatically British. Children born before may need to register separately."
+        },
+        {
+            "question": "How long does the citizenship application take?",
+            "answer": "Processing times vary, but naturalisation applications typically take 3-6 months. Once approved, you'll be invited to attend a citizenship ceremony where you'll swear an oath of allegiance and receive your certificate. "
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Single applicant naturalising after 5 years ILR",
+            "details": "1 main applicant, naturalisation application, ceremony included",
+            "breakdown": {
+                "Application fee": "£1,500",
+                "Citizenship ceremony": "£80",
+                "Life in the UK test": "£50 (if not already taken)",
+                "Total": "£1,630"
+            }
+        },
+        {
+            "title": "Married to British citizen after 3 years",
+            "details": "1 main applicant, spouse route naturalisation, faster track",
+            "breakdown": {
+                "Application fee": "£1,500",
+                "Citizenship ceremony": "£80",
+                "Total": "£1,580"
+            }
+        },
+        {
+            "title": "Couple both naturalising together",
+            "details": "2 adults, both applying for naturalisation, separate applications",
+            "breakdown": {
+                "Application fees": "£3,000 (£1,500 × 2)",
+                "Citizenship ceremonies": "£160 (£80 × 2)",
+                "Total": "£3,160"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "route_intro": "The Fiancé(e) visa allows you to come to the UK to marry or enter into a civil partnership with a British citizen or someone settled in the UK. The visa is valid for 6 months, during which time you must marry or enter a civil partnership. After marriage, you can apply to switch to a Spouse visa from within the UK. You must meet financial, relationship, and English language requirements similar to the Spouse visa route. This is the appropriate route if you're not yet married but plan to marry in the UK shortly after arriving.",
+    "faq_items": [
+        {
+            "question": "How long is the Fiancé(e) visa valid?",
+            "answer": "The visa is valid for 6 months. You must marry or enter into a civil partnership during this time. After marriage, you can apply to switch to a Spouse/Partner visa without leaving the UK."
+        },
+        {
+            "question": "Can I work on a Fiancé(e) visa?",
+            "answer": "No, you cannot work on a Fiancé(e) visa. Once you marry and switch to the Spouse visa, you'll have full work rights. Plan your finances accordingly for the 6-month period before marriage."
+        },
+        {
+            "question": "What is the income requirement?",
+            "answer": "Your partner must meet the same financial requirement as for Spouse visas: currently £29,000 per year (rising to £38,700). This can come from employment, self-employment, savings, or pension sources."
+        },
+        {
+            "question": "How much does the Fiancé(e) visa cost?",
+            "answer": "The application fee is £1,846 from outside the UK. You must also pay the Immigration Health Surcharge for the 6-month period, which is calculated based on the visa length."
+        },
+        {
+            "question": "Do I need to prove our relationship?",
+            "answer": "Yes, you must show that you're in a genuine relationship, have met in person, and intend to marry and live together permanently. Provide evidence like photos, communication records, and proof of visits."
+        },
+        {
+            "question": "What happens after we get married?",
+            "answer": "After marriage, you can apply to switch to a Spouse/Partner visa from within the UK. You'll pay new application fees for the Spouse visa at that time. The Spouse visa will be for 33 months initially."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Single applicant from outside UK, 6-month visa",
+            "details": "1 main applicant, 6 months duration, outside UK application",
+            "breakdown": {
+                "Application fee": "£1,846",
+                "Immigration Health Surcharge": "£518 (£1,035 × 0.5 years)",
+                "Total": "£2,364"
+            }
+        },
+        {
+            "title": "Fiancé(e) visa followed by Spouse visa switch",
+            "details": "Initial 6-month visa plus immediate switch to Spouse visa",
+            "breakdown": {
+                "Fiancé(e) visa fee": "£1,846",
+                "Fiancé(e) IHS": "£518",
+                "Spouse visa switch (inside UK)": "£1,048",
+                "Spouse IHS (33 months)": "£2,588",
+                "Total for both applications": "£6,000"
+            }
+        }
+    ]
+}

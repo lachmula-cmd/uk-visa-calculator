@@ -1,0 +1,68 @@
+{
+    "route_intro": "The Spouse or Partner visa allows you to come to or stay in the UK if your partner is a British citizen, has settled status in the UK, has pre-settled status and started living in the UK before 1 January 2021, or has refugee status or humanitarian protection. You must be in a genuine relationship and intend to live together permanently. You'll also need to meet financial, accommodation, and English language requirements. This visa is typically granted for 33 months initially, and you can apply to extend it for another 30 months before becoming eligible for settlement.",
+    "faq_items": [
+        {
+            "question": "What is the minimum income requirement?",
+            "answer": "Your partner must earn at least £29,000 per year (as of April 2024, increasing to £38,700). This can come from employment, self-employment, pension, or savings. There are different rules if you have children or use savings to meet the requirement."
+        },
+        {
+            "question": "How long is the Spouse visa valid?",
+            "answer": "Your first visa will be for 33 months (2 years and 9 months). You can then apply to extend it for another 30 months. After 5 years in total, you can apply for indefinite leave to remain (settlement)."
+        },
+        {
+            "question": "Can I work on a Spouse visa?",
+            "answer": "Yes, there are no restrictions on employment. You can work in any job, be self-employed, or study on a Spouse or Partner visa. This makes it a very flexible immigration route."
+        },
+        {
+            "question": "What English language level do I need?",
+            "answer": "You must prove your knowledge of English to at least CEFR level A1 (speaking and listening) for your first visa. When extending, you'll need to meet level A2, and for settlement, level B1. Some applicants are exempt based on nationality or previous education."
+        },
+        {
+            "question": "How much does the Spouse visa cost?",
+            "answer": "The application fee is £1,846 if applying from outside the UK or £1,048 if applying from inside the UK. You must also pay the Immigration Health Surcharge, which is £1,035 per year."
+        },
+        {
+            "question": "Do I need to show accommodation?",
+            "answer": "Yes, you must show that you and your partner have adequate accommodation for yourselves and any dependants. You don't need to own property, but you must demonstrate you have somewhere suitable to live without relying on public funds."
+        },
+        {
+            "question": "Can we use savings instead of income?",
+            "answer": "Yes, you can use cash savings above £16,000 to meet the financial requirement. Every £1 of savings above this threshold counts as £1 of income over the required period (usually 2.5 years). Alternatively, you can combine income and savings."
+        },
+        {
+            "question": "What if we're not married but in a relationship?",
+            "answer": "Unmarried partners can apply if they've lived together in a relationship similar to marriage or civil partnership for at least 2 years. You'll need to provide evidence of cohabitation and your genuine relationship."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "First-time applicant from outside UK, 33-month visa",
+            "details": "1 main applicant, 33 months duration, outside UK application",
+            "breakdown": {
+                "Application fee": "£1,846",
+                "Immigration Health Surcharge": "£2,588 (£1,035 × 2.5 years, rounded)",
+                "Total": "£4,434"
+            }
+        },
+        {
+            "title": "Extension from inside UK, 30-month visa with priority",
+            "details": "1 main applicant, 30 months duration, inside UK extension, priority processing",
+            "breakdown": {
+                "Application fee": "£1,048",
+                "Immigration Health Surcharge": "£2,588 (£1,035 × 2.5 years)",
+                "Priority Service": "£500",
+                "Total": "£4,136"
+            }
+        },
+        {
+            "title": "Couple with child applying together, first visa",
+            "details": "2 adults (1 sponsor + 1 applicant), 33 months, outside UK",
+            "breakdown": {
+                "Application fee (spouse)": "£1,846",
+                "Immigration Health Surcharge (spouse)": "£2,588",
+                "Note": "Child dependants would require separate applications with additional fees",
+                "Total": "£4,434"
+            }
+        }
+    ]
+}

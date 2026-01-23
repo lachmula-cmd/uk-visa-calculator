@@ -1,0 +1,58 @@
+{
+    "route_intro": "The BNO (British National Overseas) visa is a special route for British National (Overseas) status holders from Hong Kong and their family members. It allows you to live, work, and study in the UK, with a path to settlement after 5 years and citizenship after 6 years. You can apply for either a 30-month or 5-year visa. To qualify, you or your partner must hold BNO status, and you must have been a resident of Hong Kong. This route was introduced in response to changes in Hong Kong and provides a pathway to permanent residence in the UK.",
+    "faq_items": [
+        {
+            "question": "Who is eligible for the BNO visa?",
+            "answer": "You're eligible if you're a British National (Overseas), or the family member of someone with BNO status. Family members can apply even if they don't have BNO status themselves. You must have been a resident of Hong Kong or the UK on or after 1 July 1997."
+        },
+        {
+            "question": "How long can I stay on a BNO visa?",
+            "answer": "You can apply for either 30 months (2.5 years) or 5 years. If you apply for 30 months, you can extend for another 30 months. After 5 years in total, you can apply for settlement (indefinite leave to remain)."
+        },
+        {
+            "question": "Can I work on a BNO visa?",
+            "answer": "Yes, you can work in most jobs or be self-employed. You cannot work as a professional sportsperson. There are no restrictions on the type of work or skill level, making this a very flexible visa route."
+        },
+        {
+            "question": "How much does the BNO visa cost?",
+            "answer": "The visa fee is £250 if applying for 30 months or £500 if applying for 5 years (when applying from outside the UK). From inside the UK, fees are £250 and £500 respectively. You must also pay the Immigration Health Surcharge at £1,035 per year."
+        },
+        {
+            "question": "Can my family come with me?",
+            "answer": "Yes, you can include your partner and children under 18 on your application, or they can apply separately. Adult children and other family members may be eligible in certain circumstances if they formed part of your household."
+        },
+        {
+            "question": "Do I need to meet an income requirement?",
+            "answer": "No, there's no minimum income threshold. However, you must be able to accommodate and support yourself and any dependants without recourse to public funds for at least 6 months."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "BNO holder with 5-year visa, single applicant",
+            "details": "1 main applicant, 60 months duration, outside UK application",
+            "breakdown": {
+                "Application fee": "£500",
+                "Immigration Health Surcharge": "£5,175 (£1,035 × 5 years)",
+                "Total": "£5,675"
+            }
+        },
+        {
+            "title": "Family of 4 with 30-month visa",
+            "details": "2 adults + 2 children, 30 months duration, from Hong Kong",
+            "breakdown": {
+                "Application fees": "£1,000 (£250 × 4)",
+                "Immigration Health Surcharge": "£10,350 (£1,035 × 2.5 years × 4 people)",
+                "Total": "£11,350"
+            }
+        },
+        {
+            "title": "Couple extending for another 30 months inside UK",
+            "details": "2 adults, 30 months extension, inside UK application",
+            "breakdown": {
+                "Application fees": "£500 (£250 × 2)",
+                "Immigration Health Surcharge": "£5,175 (£1,035 × 2.5 years × 2)",
+                "Total": "£5,675"
+            }
+        }
+    ]
+}

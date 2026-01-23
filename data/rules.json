@@ -1,0 +1,46 @@
+{
+    "ihs_rates": {
+        "standard": {
+            "rate_per_year": 1035,
+            "description": "Standard IHS rate for main applicants and most dependants"
+        },
+        "student": {
+            "rate_per_year": 776,
+            "description": "Discounted IHS rate for students and their dependants"
+        }
+    },
+    "rounding_policy": {
+        "ihs_calculation": "IHS is calculated per year and rounded up to the nearest 6 months. Partial years are charged pro-rata.",
+        "currency": "All fees are in GBP (£)"
+    },
+    "last_updated": "2026-01-22",
+    "disclaimer": {
+        "title": "Important Disclaimer",
+        "content": "All fees shown are estimates based on current published rates and may change without notice. The UK government periodically updates visa fees and immigration health surcharge rates. You must verify all costs with official UK government sources before applying. Fee calculations shown here are for planning purposes only and do not constitute official advice. Different circumstances may affect the final cost of your application.",
+        "verification_links": [
+            {
+                "name": "Official UK Visa Fees",
+                "url": "https://www.gov.uk/visa-fees"
+            },
+            {
+                "name": "Immigration Health Surcharge",
+                "url": "https://www.gov.uk/healthcare-immigration-application"
+            },
+            {
+                "name": "Check UK Visa Requirements",
+                "url": "https://www.gov.uk/check-uk-visa"
+            }
+        ]
+    },
+    "notes": {
+        "ihs_exemptions": "Health and Care Workers, EU Settlement Scheme applicants, and certain other categories are exempt from IHS.",
+        "dependants": "Dependants (partners and children) must pay separate application fees and IHS at the same rate as the main applicant (except students pay the student rate).",
+        "priority_services": "Priority and Super Priority services are not available for all visa types or application locations. Availability varies.",
+        "calculation_method": "IHS is calculated by multiplying the annual rate by the visa duration in years, rounded up to the nearest 6 months."
+    },
+    "calculation_rules": {
+        "ihs_duration_rounding": "Round up to nearest 0.5 years (6 months)",
+        "minimum_ihs_period": 0.5,
+        "fee_display_format": "£X,XXX"
+    }
+}

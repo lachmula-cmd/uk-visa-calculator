@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Calculate the total cost of UK visa and immigration applications including fees, IHS, and processing costs. Comprehensive calculator for all UK visa routes.">
+  <meta property="og:title" content="UK Visa & Immigration Cost Calculator">
+  <meta property="og:description"
+    content="Calculate the total cost of UK visa applications including fees, Immigration Health Surcharge, and priority services. Covers all major UK visa routes.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.github.io/uk-visa-calculator/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UK Visa & Immigration Cost Calculator">
+  <meta name="twitter:description"
+    content="Calculate UK visa costs including fees, IHS, and processing for all visa routes.">
+  <title>UK Visa & Immigration Cost Calculator | Fee Calculator</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="https://yourdomain.github.io/uk-visa-calculator/">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="./" class="site-logo">UK Visa Calculator</a>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        ☰
+      </button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="guides/">Guides</a></li>
+          <li><a href="about/">About</a></li>
+          <li><a href="contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Ad Slot: Top -->
+    <div class="ad-slot ad-slot-top">Advertisement Slot</div>
+
+    <!-- Hero Section -->
+    <section class="section">
+      <div class="container">
+        <h1 class="text-center">UK Visa & Immigration Cost Calculator</h1>
+        <p class="text-center text-muted"
+          style="font-size: 1.125rem; max-width: 800px; margin: 0 auto var(--space-xl);">
+          Calculate the total cost of your UK visa application including fees, Immigration Health Surcharge,
+          and optional services. Covers all major UK visa routes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Calculator -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="calculator">
+          <h2 class="calculator-title">Quick Cost Calculator</h2>
+          <div id="master-calculator"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ad Slot: After Calculator -->
+    <div class="ad-slot ad-slot-after-calc">Advertisement Slot</div>
+
+
+
+    <!-- Ad Slot: Footer -->
+    <div class="ad-slot ad-slot-footer">Advertisement Slot</div>
+
+    <!-- Important Disclaimer -->
+    <section class="section" style="background-color: var(--color-bg);">
+      <div class="container">
+        <div class="card" style="border-color: var(--color-accent);">
+          <h3 style="color: var(--color-accent);">⚠️ Important Disclaimer</h3>
+          <p>
+            All fees and costs shown on this website are <strong>estimates only</strong> and may not reflect current
+            rates.
+            UK visa fees and Immigration Health Surcharge rates are subject to change without notice.
+          </p>
+          <p class="mb-0">
+            <strong>You must verify all costs with official UK government sources before applying.</strong>
+            Visit <a href="https://www.gov.uk/visa-fees" target="_blank" rel="noopener">gov.uk/visa-fees</a> for
+            official fee information.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="privacy/">Privacy Policy</a></li>
+        <li><a href="terms/">Terms of Service</a></li>
+        <li><a href="disclaimer/">Disclaimer</a></li>
+        <li><a href="about/">About</a></li>
+        <li><a href="contact/">Contact</a></li>
+      </ul>
+      <p class="footer-copyright">
+        &copy; 2026 UK Visa Calculator. Not affiliated with UK government.
+        For planning purposes only. Verify all information with official sources.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/calculator.js"></script>
+  <script>
+    // Initialize master calculator on homepage
+    async function initMasterCalculator() {
+      try {
+        await Calculator.init();
+        const indexableRoutes = await DataLoader.getIndexableRoutes();
+
+        const container = document.getElementById('master-calculator');
+        if (!container) return;
+
+        let html = `
+          <div id="master-calc-form">
+            <div class="estimate-banner">
+              <strong>Estimates Only:</strong> Verify all costs with official UK government sources before applying.
+            </div>
+            
+            <div class="form-group">
+              <label for="route-select" class="form-label">Select Visa Route</label>
+              <select id="route-select" class="form-select" required>
+                <option value="">-- Choose a visa type --</option>
+        `;
+
+        // Group routes by category
+        const categories = {
+          work: 'Work Visas',
+          study: 'Study Visas',
+          family: 'Family Visas',
+          visit: 'Visitor Visas',
+          settlement: 'Settlement & Citizenship',
+          other: 'Other Routes'
+        };
+
+        for (const [catKey, catName] of Object.entries(categories)) {
+          const routesInCat = indexableRoutes.filter(r => r.category === catKey);
+          if (routesInCat.length > 0) {
+            html += `<optgroup label="${catName}">`;
+            routesInCat.forEach(route => {
+              html += `<option value="${route.route_id}">${route.name}</option>`;
+            });
+            html += '</optgroup>';
+          }
+        }
+
+        html += `
+              </select>
+            </div>
+            <div id="dynamic-calc-area"></div>
+          </div>
+        `;
+
+        container.innerHTML = html;
+
+        // Handle route selection
+        document.getElementById('route-select').addEventListener('change', (e) => {
+          const routeId = e.target.value;
+          const dynamicArea = document.getElementById('dynamic-calc-area');
+
+          if (routeId) {
+            Calculator.renderForm(routeId, 'dynamic-calc-area');
+          } else {
+            dynamicArea.innerHTML = '';
+          }
+        });
+
+      } catch (error) {
+        console.error('Error initializing calculator:', error);
+        document.getElementById('master-calculator').innerHTML =
+          '<p class="text-center" style="color: var(--color-accent);">Error loading calculator. Please refresh the page.</p>';
+      }
+    }
+
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initMasterCalculator);
+    } else {
+      initMasterCalculator();
+    }
+  </script>
+
+  <!-- JSON-LD Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "UK Visa Calculator",
+    "url": "https://yourdomain.github.io/uk-visa-calculator/",
+    "description": "Calculate the total cost of UK visa and immigration applications including fees, Immigration Health Surcharge, and optional services.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourdomain.github.io/uk-visa-calculator/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "UK Visa Calculator"
+    }
+  }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,969 @@
+[
+    {
+        "route_id": "skilled-worker",
+        "name": "Skilled Worker Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            12,
+            24,
+            36,
+            48,
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "skilled_worker_inside",
+            "skilled_worker_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "health-care-worker",
+        "name": "Health and Care Worker Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            12,
+            24,
+            36,
+            48,
+            60
+        ],
+        "ihs_policy": "exempt",
+        "fee_items": [
+            "health_care_worker_inside",
+            "health_care_worker_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "global-business-mobility",
+        "name": "Global Business Mobility Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            12,
+            24,
+            36,
+            48,
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "gbm_inside",
+            "gbm_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "graduate-visa",
+        "name": "Graduate Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            24
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "graduate_inside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "youth-mobility",
+        "name": "Youth Mobility Scheme Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            24
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "youth_mobility_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "scale-up-worker",
+        "name": "Scale-up Worker Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            24
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "scale_up_inside",
+            "scale_up_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "start-up-visa",
+        "name": "Start-up Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            24
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "start_up_inside",
+            "start_up_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "innovator-founder",
+        "name": "Innovator Founder Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            36
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "innovator_inside",
+            "innovator_outside"
+        ],
+        "extras_supported": [
+            "priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "student-visa",
+        "name": "Student Visa",
+        "category": "study",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "custom",
+        "max_duration_months": 60,
+        "ihs_policy": "required_student",
+        "fee_items": [
+            "student_inside",
+            "student_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "child-student",
+        "name": "Child Student Visa",
+        "category": "study",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "custom",
+        "max_duration_months": 72,
+        "ihs_policy": "required_student",
+        "fee_items": [
+            "child_student_inside",
+            "child_student_outside"
+        ],
+        "extras_supported": [
+            "priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "short-term-study",
+        "name": "Short-term Study Visa",
+        "category": "study",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6,
+            11
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "short_study_6m",
+            "short_study_11m"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "spouse-partner",
+        "name": "Spouse/Partner Visa",
+        "category": "family",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            33
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "spouse_inside",
+            "spouse_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "fiance-visa",
+        "name": "Fiancé(e) Visa",
+        "category": "family",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "fiance_outside"
+        ],
+        "extras_supported": [
+            "priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "parent-visa",
+        "name": "Parent of a Child Visa",
+        "category": "family",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            33
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "parent_inside",
+            "parent_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "child-dependent",
+        "name": "Child Dependent Visa",
+        "category": "family",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "match_sponsor",
+        "ihs_policy": "required",
+        "fee_items": [
+            "child_dependent_inside",
+            "child_dependent_outside"
+        ],
+        "extras_supported": [
+            "priority",
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "adult-dependent-relative",
+        "name": "Adult Dependent Relative Visa",
+        "category": "family",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            33
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "adult_dependent_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "standard-visitor",
+        "name": "Standard Visitor Visa",
+        "category": "visit",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6,
+            12,
+            24,
+            60,
+            120
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "visitor_6m",
+            "visitor_1y",
+            "visitor_2y",
+            "visitor_5y",
+            "visitor_10y"
+        ],
+        "extras_supported": [
+            "priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "marriage-visitor",
+        "name": "Marriage Visitor Visa",
+        "category": "visit",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "marriage_visitor"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "transit-visa",
+        "name": "Transit Visa",
+        "category": "visit",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            1
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "transit_visa"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "indefinite-leave-remain-work",
+        "name": "Indefinite Leave to Remain (Work Route)",
+        "category": "settlement",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "ilr_work"
+        ],
+        "extras_supported": [
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "indefinite-leave-remain-family",
+        "name": "Indefinite Leave to Remain (Family Route)",
+        "category": "settlement",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "ilr_family"
+        ],
+        "extras_supported": [
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "indefinite-leave-remain-10year",
+        "name": "Indefinite Leave to Remain (10 Year Route)",
+        "category": "settlement",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "ilr_10year"
+        ],
+        "extras_supported": [
+            "super_priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "naturalisation-citizenship",
+        "name": "British Citizenship (Naturalisation)",
+        "category": "settlement",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "naturalisation"
+        ],
+        "extras_supported": [
+            "citizenship_ceremony"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "registration-citizenship",
+        "name": "British Citizenship (Registration)",
+        "category": "settlement",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "registration"
+        ],
+        "extras_supported": [
+            "citizenship_ceremony"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "euss-settled-status",
+        "name": "EU Settled Status",
+        "category": "other",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "euss-pre-settled",
+        "name": "EU Pre-Settled Status",
+        "category": "other",
+        "indexable": true,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            60
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "euss-family-permit",
+        "name": "EU Settlement Scheme Family Permit",
+        "category": "other",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "bno-visa",
+        "name": "British National (Overseas) Visa",
+        "category": "other",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            30,
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "bno_30m",
+            "bno_60m"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "ancestry-visa",
+        "name": "UK Ancestry Visa",
+        "category": "other",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "ancestry_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "high-potential-individual",
+        "name": "High Potential Individual Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            24,
+            36
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "hpi_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "global-talent",
+        "name": "Global Talent Visa",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "global_talent_inside",
+            "global_talent_outside"
+        ],
+        "extras_supported": [
+            "priority"
+        ],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "temporary-worker-creative",
+        "name": "Temporary Worker - Creative and Sporting",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            12
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "temp_worker_creative_inside",
+            "temp_worker_creative_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "temporary-worker-charity",
+        "name": "Temporary Worker - Charity Worker",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            12
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "temp_worker_charity_inside",
+            "temp_worker_charity_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "temporary-worker-seasonal",
+        "name": "Temporary Worker - Seasonal Worker",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "temp_worker_seasonal_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "representative-overseas-business",
+        "name": "Representative of an Overseas Business",
+        "category": "work",
+        "indexable": true,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            36
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "rep_overseas_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier1-investor",
+        "name": "Tier 1 (Investor) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            40
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier1_investor_inside",
+            "tier1_investor_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier1-entrepreneur",
+        "name": "Tier 1 (Entrepreneur) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            40
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier1_entrepreneur_inside",
+            "tier1_entrepreneur_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier1-exceptional-talent",
+        "name": "Tier 1 (Exceptional Talent) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier1_talent_inside",
+            "tier1_talent_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier2-general",
+        "name": "Tier 2 (General) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier2_general_inside",
+            "tier2_general_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier2-ict",
+        "name": "Tier 2 (Intra-Company Transfer) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            60
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier2_ict_inside",
+            "tier2_ict_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier4-student",
+        "name": "Tier 4 (General) Student Visa",
+        "category": "study",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "custom",
+        "max_duration_months": 60,
+        "ihs_policy": "required_student",
+        "fee_items": [
+            "tier4_student_inside",
+            "tier4_student_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier4-child",
+        "name": "Tier 4 (Child) Student Visa",
+        "category": "study",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "custom",
+        "max_duration_months": 72,
+        "ihs_policy": "required_student",
+        "fee_items": [
+            "tier4_child_inside",
+            "tier4_child_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier5-youth-mobility",
+        "name": "Tier 5 (Youth Mobility Scheme) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            24
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier5_youth_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "tier5-temporary-worker",
+        "name": "Tier 5 (Temporary Worker) Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "both",
+        "duration_policy": "fixed",
+        "duration_options": [
+            12,
+            24
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "tier5_temp_inside",
+            "tier5_temp_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "domestic-worker",
+        "name": "Domestic Worker Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            6
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "domestic_worker_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "permitted-paid-engagement",
+        "name": "Permitted Paid Engagement Visa",
+        "category": "visit",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            1
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "ppe_outside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "turkey-ecaa-worker",
+        "name": "Turkish ECAA Worker Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            36
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "turkey_ecaa_inside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "turkey-ecaa-business",
+        "name": "Turkish ECAA Business Person Visa",
+        "category": "work",
+        "indexable": false,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            36
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "turkey_ecaa_business_inside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "stateless-person",
+        "name": "Stateless Person Leave",
+        "category": "other",
+        "indexable": false,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            30
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [
+            "stateless_inside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "refugee-family-reunion",
+        "name": "Refugee Family Reunion Visa",
+        "category": "family",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            33
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "ukraine-family-scheme",
+        "name": "Ukraine Family Scheme",
+        "category": "other",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            36
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "ukraine-sponsorship-scheme",
+        "name": "Homes for Ukraine Sponsorship Scheme",
+        "category": "other",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            36
+        ],
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "hong-kong-bno-leave-remain",
+        "name": "Hong Kong BNO Leave to Remain",
+        "category": "other",
+        "indexable": false,
+        "apply_from_options": "inside_uk",
+        "duration_policy": "fixed",
+        "duration_options": [
+            30
+        ],
+        "ihs_policy": "required",
+        "fee_items": [
+            "hk_bno_ltr_inside"
+        ],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    },
+    {
+        "route_id": "afghanistan-relocation-scheme",
+        "name": "Afghanistan Citizens Resettlement Scheme",
+        "category": "other",
+        "indexable": false,
+        "apply_from_options": "outside_uk",
+        "duration_policy": "permanent",
+        "ihs_policy": "not_required",
+        "fee_items": [],
+        "extras_supported": [],
+        "last_reviewed": "2026-01-22"
+    }
+]

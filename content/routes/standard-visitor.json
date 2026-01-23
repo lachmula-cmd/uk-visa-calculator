@@ -1,0 +1,63 @@
+{
+    "route_intro": "The Standard Visitor visa allows you to visit the UK for tourism, business, study (short courses), medical treatment, or to visit family and friends. You cannot work or access public funds on this visa. Most visitors can stay for up to 6 months, though longer validity visas are available. You must show that you're a genuine visitor who will leave at the end of your visit, have enough money to support yourself during your trip, and can pay for your return journey. This is one of the most common UK visa types for short-term visits.",
+    "faq_items": [
+        {
+            "question": "How long can I stay on a Standard Visitor visa?",
+            "answer": "You can usually stay for up to 6 months per visit. If you apply for a longer-term visa (1, 2, 5, or 10 years), this means you can make multiple visits during that period, but each individual visit is still limited to 6 months maximum."
+        },
+        {
+            "question": "What can I do on a Standard Visitor visa?",
+            "answer": "You can go on holiday, visit family or friends, participate in business activities (like meetings or conferences), study a short course (up to 6 months, or 11 months for English language courses), receive private medical treatment, or take part in certain sports or creative events."
+        },
+        {
+            "question": "Can I work on a Standard Visitor visa?",
+            "answer": "No, you cannot work on a visitor visa. You also cannot study for more than 6 months (except on Short-term Study visa), get public funds, marry or register a civil partnership, or live in the UK through frequent or successive visits."
+        },
+        {
+            "question": "How much does a Standard Visitor visa cost?",
+            "answer": "A 6-month visitor visa costs £115. Longer-validity visas cost £432 (1 year), £771 (2 years), £1,929 (5 years), or £2,572 (10 years). Note that longer visas don't allow longer individual stays, just multiple visits during the validity period."
+        },
+        {
+            "question": "Do I need to pay the Immigration Health Surcharge?",
+            "answer": "No, visitor visas do not require the Immigration Health Surcharge. However, you won't normally have access to free NHS treatment and may need to pay for any healthcare you receive."
+        },
+        {
+            "question": "Can I extend my Standard Visitor visa?",
+            "answer": "Standard Visitor visas usually cannot be extended. You must leave the UK before your visa expires and apply for a new visa if you want to return. There are very limited exceptions, such as for private medical treatment."
+        },
+        {
+            "question": "Do I need a visitor visa to enter the UK?",
+            "answer": "It depends on your nationality. Citizens of many countries can visit the UK without a visa for up to 6 months (visa nationals need to apply in advance). Check if you need a visa based on your passport country."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Tourist visiting for 2 weeks, 6-month visa",
+            "details": "1 main applicant, 6 months validity, standard processing",
+            "breakdown": {
+                "Application fee": "£115",
+                "Immigration Health Surcharge": "£0 (not required)",
+                "Total": "£115"
+            }
+        },
+        {
+            "title": "Business visitor with 2-year visa for multiple trips",
+            "details": "1 main applicant, 2 years validity (allowing multiple 6-month visits)",
+            "breakdown": {
+                "Application fee": "£771",
+                "Immigration Health Surcharge": "£0 (not required)",
+                "Total": "£771"
+            }
+        },
+        {
+            "title": "Family visit with 5-year visa and priority",
+            "details": "1 main applicant, 5 years validity, priority processing",
+            "breakdown": {
+                "Application fee": "£1,929",
+                "Priority Service": "£212",
+                "Immigration Health Surcharge": "£0 (not required)",
+                "Total": "£2,141"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "route_intro": "The Graduate visa allows international students who have successfully completed an eligible course in the UK to stay and work, or look for work, for at least 2 years after their studies. PhD graduates can stay for 3 years. You must currently be in the UK on a Student visa or Tier 4 (General) visa, and your education provider must have notified the Home Office that you've successfully completed your course. There's no need for sponsorship, no minimum salary, and you can work in most jobs or be self-employed. This is an excellent route for graduates wanting UK work experience.",
+    "faq_items": [
+        {
+            "question": "How long does a Graduate visa last?",
+            "answer": "You can stay in the UK for 2 years if you completed a bachelor's or master's degree, or 3 years if you completed a PhD. The visa cannot be extended, but you can switch to other visa routes like Skilled Worker if you have a job offer."
+        },
+        {
+            "question": "Can I work on a Graduate visa?",
+            "answer": "Yes, you can work in most jobs at any skill level, be self-employed, look for work, or volunteer. You cannot work as a professional sportsperson or sports coach. There's no sponsor required and no minimum salary threshold."
+        },
+        {
+            "question": "How much does the Graduate visa cost?",
+            "answer": "The application fee is £822. You must also pay the Immigration Health Surcharge, which is £1,035 per year for the main applicant (£2,070 for 2 years or £3,105 for 3 years for PhD graduates)."
+        },
+        {
+            "question": "Can my family join me on a Graduate visa?",
+            "answer": "Yes, your partner and children can apply as your dependants if they're already in the UK as dependants on your Student visa. New dependants cannot apply from outside the UK unless there are exceptional circumstances."
+        },
+        {
+            "question": "What courses are eligible for the Graduate visa?",
+            "answer": "Your course must be a UK bachelor's degree, postgraduate degree, or other eligible course at an approved higher education provider with a track record of compliance. Foundation courses and some professional qualifications also qualify if they meet the requirements."
+        },
+        {
+            "question": " Can I switch to a different visa from the Graduate route?",
+            "answer": "Yes, you can switch to other visa routes like Skilled Worker, Innovator Founder, or other work visas while in the UK on a Graduate visa. This is a common pathway for graduates who secure sponsored employment."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Bachelor's graduate, 2-year visa, single applicant",
+            "details": "1 main applicant, 24 months duration, inside UK application",
+            "breakdown": {
+                "Application fee": "£822",
+                "Immigration Health Surcharge": "£2,070 (£1,035 × 2 years)",
+                "Total": "£2,892"
+            }
+        },
+        {
+            "title": "PhD graduate with spouse, 3-year visa",
+            "details": "2 adults, 36 months duration, inside UK application with dependant",
+            "breakdown": {
+                "Application fees": "£1,644 (£822 × 2)",
+                "Immigration Health Surcharge": "£6,210 (£1,035 × 3 years × 2 people)",
+                "Total": "£7,854"
+            }
+        },
+        {
+            "title": "Master's graduate, 2-year visa with priority",
+            "details": "1 main applicant, 24 months duration, priority processing",
+            "breakdown": {
+                "Application fee": "£822",
+                "Immigration Health Surcharge": "£2,070",
+                "Priority Service": "£500",
+                "Total": "£3,392"
+            }
+        }
+    ]
+}

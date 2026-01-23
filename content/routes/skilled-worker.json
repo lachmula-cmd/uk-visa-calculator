@@ -1,0 +1,68 @@
+{
+    "route_intro": "The Skilled Worker visa allows you to come to or stay in the UK to do an eligible job with an approved employer. This route replaced the Tier 2 (General) work visa and is designed for workers with a job offer in an eligible skilled occupation. You must have a job offer from a UK employer who's been approved by the Home Office, meet the required skill level (usually RQF Level 3 or above), and speak English to the required standard. Your employer must provide a Certificate of Sponsorship with information about the role you've been offered in the UK.",
+    "faq_items": [
+        {
+            "question": "How long can I stay on a Skilled Worker visa?",
+            "answer": "Your visa can be for up to 5 years before you need to extend it. You'll need to apply to extend or update your visa when it expires or if you change jobs or employer. After 5 years, you may be eligible to apply for settlement (indefinite leave to remain)."
+        },
+        {
+            "question": "Can my family join me on a Skilled Worker visa?",
+            "answer": "Yes, your partner and children can apply as your 'dependants' if they're eligible. They'll need to apply separately and pay their own fees and Immigration Health Surcharge. Dependants can work and study in the UK."
+        },
+        {
+            "question": "What is the minimum salary requirement?",
+            "answer": "You must be paid at least £38,700 per year or the 'going rate' for your job, whichever is higher. Some occupations have lower thresholds, particularly for shortage occupations or new entrants. Your sponsor will confirm the appropriate salary level."
+        },
+        {
+            "question": "Do I need to pay the Immigration Health Surcharge?",
+            "answer": "Yes, most Skilled Worker visa applicants must pay the Immigration Health Surcharge (IHS) as part of their application. This gives you access to the NHS. The cost is £1,035 per year for main applicants and dependants (students and their dependants pay a reduced rate)."
+        },
+        {
+            "question": "Can I apply from inside or outside the UK?",
+            "answer": "You can apply for a Skilled Worker visa from inside or outside the UK, as long as you meet the eligibility requirements. If applying from inside the UK, you must already have valid permission to be in the UK."
+        },
+        {
+            "question": "What happens if I change jobs?",
+            "answer": "If you change employer or job role, you'll usually need to apply to update your visa. Your new employer must be a licensed sponsor and provide you with a new Certificate of Sponsorship. Some changes within the same employer may not require a new application."
+        },
+        {
+            "question": "Can I switch to a Skilled Worker visa from another visa type?",
+            "answer": "Yes, you can switch to a Skilled Worker visa from most visa categories while in the UK, except for visitor visas, short-term student visas, and some other restricted categories. You must meet all the eligibility requirements."
+        },
+        {
+            "question": "Is there a cooling-off period for Skilled Worker visas?",
+            "answer": "No, there is no cooling-off period for Skilled Worker visas. If your visa expires or is curtailed, you can apply for a new one immediately if you have a valid job offer and Certificate of Sponsorship."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Single applicant, 3-year visa, applying from outside UK",
+            "details": "1 main applicant, 36 months duration, outside UK application, standard processing",
+            "breakdown": {
+                "Application fee": "£719",
+                "Immigration Health Surcharge": "£3,105 (£1,035 × 3 years)",
+                "Total": "£3,824"
+            }
+        },
+        {
+            "title": "Couple with 1 child, 5-year visa, applying from inside UK",
+            "details": "2 adults + 1 child, 60 months duration, inside UK application, super priority processing",
+            "breakdown": {
+                "Application fees": "£3,426 (£1,142 × 3 applicants)",
+                "Immigration Health Surcharge": "£15,525 (£1,035 × 5 years × 3 people)",
+                "Super Priority Service": "£2,400 (£800 × 3)",
+                "Total": "£21,351"
+            }
+        },
+        {
+            "title": "Single applicant, 2-year extension, priority service",
+            "details": "1 main applicant, 24 months duration, inside UK extension, priority processing",
+            "breakdown": {
+                "Application fee": "£1,142",
+                "Immigration Health Surcharge": "£2,070 (£1,035 × 2 years)",
+                "Priority Service": "£500",
+                "Total": "£3,712"
+            }
+        }
+    ]
+}

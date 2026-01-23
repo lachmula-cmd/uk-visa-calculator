@@ -1,0 +1,562 @@
+{
+    "skilled_worker_outside": {
+        "name": "Skilled Worker - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 719,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "skilled_worker_inside": {
+        "name": "Skilled Worker - Inside UK",
+        "amount_inside_uk": 1142,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "health_care_worker_outside": {
+        "name": "Health and Care Worker - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 284,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "health_care_worker_inside": {
+        "name": "Health and Care Worker - Inside UK",
+        "amount_inside_uk": 551,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "student_outside": {
+        "name": "Student Visa - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 490,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "student_inside": {
+        "name": "Student Visa - Inside UK",
+        "amount_inside_uk": 490,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "child_student_outside": {
+        "name": "Child Student - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 490,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "child_student_inside": {
+        "name": "Child Student - Inside UK",
+        "amount_inside_uk": 490,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "graduate_inside": {
+        "name": "Graduate Visa",
+        "amount_inside_uk": 822,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "spouse_outside": {
+        "name": "Spouse/Partner - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1846,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "spouse_inside": {
+        "name": "Spouse/Partner - Inside UK",
+        "amount_inside_uk": 1048,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "fiance_outside": {
+        "name": "Fiancé(e) Visa",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1846,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "parent_outside": {
+        "name": "Parent of a Child - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1846,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "parent_inside": {
+        "name": "Parent of a Child - Inside UK",
+        "amount_inside_uk": 1048,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "child_dependent_outside": {
+        "name": "Child Dependent - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1846,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "child_dependent_inside": {
+        "name": "Child Dependent - Inside UK",
+        "amount_inside_uk": 1048,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "adult_dependent_outside": {
+        "name": "Adult Dependent Relative",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 3250,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "visitor_6m": {
+        "name": "Standard Visitor - 6 months",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 115,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "visitor_1y": {
+        "name": "Standard Visitor - 1 year",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 432,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "visitor_2y": {
+        "name": "Standard Visitor - 2 years",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 771,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "visitor_5y": {
+        "name": "Standard Visitor - 5 years",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1929,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "visitor_10y": {
+        "name": "Standard Visitor - 10 years",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 2572,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "marriage_visitor": {
+        "name": "Marriage Visitor",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 115,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "transit_visa": {
+        "name": "Transit Visa",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 37,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "ilr_work": {
+        "name": "ILR - Work Route",
+        "amount_inside_uk": 2885,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "ilr_family": {
+        "name": "ILR - Family Route",
+        "amount_inside_uk": 2885,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "ilr_10year": {
+        "name": "ILR - 10 Year Route",
+        "amount_inside_uk": 2885,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "naturalisation": {
+        "name": "British Citizenship (Naturalisation)",
+        "amount_inside_uk": 1500,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "registration": {
+        "name": "British Citizenship (Registration)",
+        "amount_inside_uk": 1214,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "citizenship_ceremony": {
+        "name": "Citizenship Ceremony",
+        "amount_inside_uk": 80,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "bno_30m": {
+        "name": "BNO Visa - 30 months",
+        "amount_inside_uk": 250,
+        "amount_outside_uk": 250,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "bno_60m": {
+        "name": "BNO Visa - 5 years",
+        "amount_inside_uk": 500,
+        "amount_outside_uk": 500,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "global_talent_inside": {
+        "name": "Global Talent - Inside UK",
+        "amount_inside_uk": 716,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "global_talent_outside": {
+        "name": "Global Talent - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 716,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "global_talent_endorsement": {
+        "name": "Global Talent Endorsement",
+        "amount_inside_uk": 524,
+        "amount_outside_uk": 524,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "youth_mobility_outside": {
+        "name": "Youth Mobility Scheme",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 298,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "hpi_outside": {
+        "name": "High Potential Individual",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 822,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "ancestry_outside": {
+        "name": "UK Ancestry Visa",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 531,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "gbm_inside": {
+        "name": "Global Business Mobility - Inside UK",
+        "amount_inside_uk": 719,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "gbm_outside": {
+        "name": "Global Business Mobility - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 719,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "scale_up_inside": {
+        "name": "Scale-up Worker - Inside UK",
+        "amount_inside_uk": 719,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "scale_up_outside": {
+        "name": "Scale-up Worker - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 719,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "start_up_inside": {
+        "name": "Start-up - Inside UK",
+        "amount_inside_uk": 363,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "start_up_outside": {
+        "name": "Start-up - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 363,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "innovator_inside": {
+        "name": "Innovator Founder - Inside UK",
+        "amount_inside_uk": 1486,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "innovator_outside": {
+        "name": "Innovator Founder - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1486,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "short_study_6m": {
+        "name": "Short-term Study - 6 months",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 200,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "short_study_11m": {
+        "name": "Short-term Study - 11 months",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 200,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "temp_worker_creative_inside": {
+        "name": "Temporary Worker (Creative) - Inside UK",
+        "amount_inside_uk": 298,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "temp_worker_creative_outside": {
+        "name": "Temporary Worker (Creative) - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 298,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "temp_worker_charity_inside": {
+        "name": "Temporary Worker (Charity) - Inside UK",
+        "amount_inside_uk": 298,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "temp_worker_charity_outside": {
+        "name": "Temporary Worker (Charity) - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 298,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "temp_worker_seasonal_outside": {
+        "name": "Temporary Worker (Seasonal) - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 298,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "rep_overseas_outside": {
+        "name": "Representative of Overseas Business",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 719,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "priority": {
+        "name": "Priority Service",
+        "amount_inside_uk": 500,
+        "amount_outside_uk": 212,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "super_priority": {
+        "name": "Super Priority Service",
+        "amount_inside_uk": 800,
+        "amount_outside_uk": 1000,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "tier1_investor_inside": {
+        "name": "Tier 1 Investor - Inside UK",
+        "amount_inside_uk": 1621,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier1_investor_outside": {
+        "name": "Tier 1 Investor - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1621,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier1_entrepreneur_inside": {
+        "name": "Tier 1 Entrepreneur - Inside UK",
+        "amount_inside_uk": 1277,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier1_entrepreneur_outside": {
+        "name": "Tier 1 Entrepreneur - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 1277,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier1_talent_inside": {
+        "name": "Tier 1 Exceptional Talent - Inside UK",
+        "amount_inside_uk": 716,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier1_talent_outside": {
+        "name": "Tier 1 Exceptional Talent - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 716,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier2_general_inside": {
+        "name": "Tier 2 General - Inside UK",
+        "amount_inside_uk": 719,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier2_general_outside": {
+        "name": "Tier 2 General - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 719,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier2_ict_inside": {
+        "name": "Tier 2 ICT - Inside UK",
+        "amount_inside_uk": 719,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier2_ict_outside": {
+        "name": "Tier 2 ICT - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 719,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier4_student_inside": {
+        "name": "Tier 4 Student - Inside UK",
+        "amount_inside_uk": 490,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier4_student_outside": {
+        "name": "Tier 4 Student - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 490,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier4_child_inside": {
+        "name": "Tier 4 Child - Inside UK",
+        "amount_inside_uk": 490,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier4_child_outside": {
+        "name": "Tier 4 Child - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 490,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier5_youth_outside": {
+        "name": "Tier 5 Youth Mobility - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 298,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier5_temp_inside": {
+        "name": "Tier 5 Temporary Worker - Inside UK",
+        "amount_inside_uk": 298,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "tier5_temp_outside": {
+        "name": "Tier 5 Temporary Worker - Outside UK",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 298,
+        "per_person": true,
+        "effective_date": "2023-01-01"
+    },
+    "domestic_worker_outside": {
+        "name": "Domestic Worker",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 531,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "ppe_outside": {
+        "name": "Permitted Paid Engagement",
+        "amount_inside_uk": null,
+        "amount_outside_uk": 115,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "turkey_ecaa_inside": {
+        "name": "Turkish ECAA Worker",
+        "amount_inside_uk": 719,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "turkey_ecaa_business_inside": {
+        "name": "Turkish ECAA Business Person",
+        "amount_inside_uk": 719,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "stateless_inside": {
+        "name": "Stateless Person Leave",
+        "amount_inside_uk": 531,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "hk_bno_ltr_inside": {
+        "name": "Hong Kong BNO Leave to Remain",
+        "amount_inside_uk": 250,
+        "amount_outside_uk": null,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    },
+    "life_in_uk_test": {
+        "name": "Life in the UK Test",
+        "amount_inside_uk": 50,
+        "amount_outside_uk": 50,
+        "per_person": true,
+        "effective_date": "2026-01-01"
+    }
+}

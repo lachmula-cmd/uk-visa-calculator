@@ -1,0 +1,59 @@
+{
+    "route_intro": "The Youth Mobility Scheme visa allows young people from participating countries and territories to live and work in the UK for up to 2 years. This is a unique visa that gives young people aged 18-30 (or 18-35 for some nationalities) the opportunity to experience life in the UK with minimal restrictions. You can work, study, and travel. You don't need a job offer or sponsor, and there are no restrictions on the type of work you can do (except professional sportsperson). The visa cannot be extended, but you can apply to switch to other visa routes like Skilled Worker if you meet the eligibility requirements.",
+    "faq_items": [
+        {
+            "question": "Which countries are eligible for the Youth Mobility Scheme?",
+            "answer": "Eligible countries include Australia, Canada, New Zealand, Japan, Monaco, Hong Kong, Republic of Korea, Taiwan, and San Marino. Each country has specific quotas and application procedures. You must hold a valid passport from one of these countries or territories."
+        },
+        {
+            "question": "What are the age requirements?",
+            "answer": "You must be aged between 18 and 30 years old (or 18 and 35 for certain nationalities like Canada, Australia, and New Zealand) when you apply. Once granted, you can stay for 2 years regardless of your age when the visa expires."
+        },
+        {
+            "question": "How much money do I need to show?",
+            "answer": "You must have at least £2,530 in savings, held for at least 28 consecutive days before you apply. This ensures you can support yourself when you first arrive in the UK without needing to work immediately."
+        },
+        {
+            "question": "Can I extend my Youth Mobility Scheme visa?",
+            "answer": "No, the Youth Mobility Scheme visa cannot be extended beyond 2 years. However, if you find employment, you may be able to switch to a Skilled Worker visa or other work route while in the UK if you meet the requirements."
+        },
+        {
+            "question": "Can I bring family members?",
+            "answer": "No, you cannot bring dependants (partners or children) with you on a Youth Mobility Scheme visa. This visa is designed for individual young people to work and travel in the UK."
+        },
+        {
+            "question": "Can I work and study?",
+            "answer": "Yes, you can work in most jobs (except professional sports), be self-employed, and study. There are very few restrictions, making this one of the most flexible UK visa routes available."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Canadian applicant, 2-year visa",
+            "details": "1 main applicant, 24 months duration, outside UK application",
+            "breakdown": {
+                "Application fee": "£298",
+                "Immigration Health Surcharge": "£2,070 (£1,035 × 2 years)",
+                "Total": "£2,368"
+            }
+        },
+        {
+            "title": "Australian applicant with full 2-year visa",
+            "details": "1 main applicant, 24 months duration, standard processing",
+            "breakdown": {
+                "Application fee": "£298",
+                "Immigration Health Surcharge": "£2,070",
+                "Total": "£2,368"
+            }
+        },
+        {
+            "title": "Japanese applicant (quota-based)",
+            "details": "1 main applicant, 24 months duration, ballot allocation",
+            "breakdown": {
+                "Application fee": "£298",
+                "Immigration Health Surcharge": "£2,070",
+                "Note": "Limited places allocated via ballot system",
+                "Total": "£2,368"
+            }
+        }
+    ]
+}

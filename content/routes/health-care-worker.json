@@ -1,0 +1,63 @@
+{
+    "route_intro": "The Health and Care Worker visa allows medical professionals to come to or stay in the UK to do an eligible job with the NHS, an NHS supplier, or in adult social care. This route offers several benefits including reduced visa fees and exemption from the Immigration Health Surcharge. You must have a job offer from an approved UK employer who has been issued a sponsor licence valid for health and care workers. Your role must be on the list of eligible health and care professional occupations, and you must meet the required skill and English language requirements.",
+    "faq_items": [
+        {
+            "question": "What jobs are eligible for the Health and Care Worker visa?",
+            "answer": "Eligible jobs include doctors, nurses, health professionals, social workers, and some jobs in adult social care. Your specific job code must be on the list of eligible occupations. Your employer will confirm whether your role qualifies."
+        },
+        {
+            "question": "Do I have to pay the Immigration Health Surcharge?",
+            "answer": "No, health and care workers are exempt from paying the Immigration Health Surcharge (IHS). This is a significant benefit that can save thousands of pounds depending on the length of your visa."
+        },
+        {
+            "question": "What are the salary requirements?",
+            "answer": "You must be paid at least £23,200 per year or the going rate for your occupation, whichever is higher. The going rate varies by occupation code and is generally lower than the standard Skilled Worker threshold."
+        },
+        {
+            "question": "How much does the Health and Care Worker visa cost?",
+            "answer": "The visa fee is £284 if applying from outside the UK or £551 if applying from inside the UK. This is significantly cheaper than the standard Skilled Worker visa, and you're also exempt from the IHS."
+        },
+        {
+            "question": "Can my family come with me?",
+            "answer": "Yes, your partner and children can apply as dependants. They must pay their own application fees but are also exempt from the Immigration Health Surcharge, which makes this route very cost-effective for families."
+        },
+        {
+            "question": "How long can I stay?",
+            "answer": "You can apply for a visa for up to 5 years at a time. After 5 years on this visa, you may be eligible to apply for indefinite leave to remain (settlement) in the UK."
+        },
+        {
+            "question": "Who can sponsor Health and Care Worker visas?",
+            "answer": "Your employer must be the NHS, an NHS supplier, or an organisation providing services commissioned by an integrated care board or local authority. Adult social care employers must be registered with the Care Quality Commission in England or equivalent regulators in other UK nations."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Nurse applying from outside UK, 3-year visa",
+            "details": "1 main applicant, 36 months duration, outside UK application, no IHS required",
+            "breakdown": {
+                "Application fee": "£284",
+                "Immigration Health Surcharge": "£0 (exempt)",
+                "Total": "£284"
+            }
+        },
+        {
+            "title": "Doctor with spouse and 2 children, 5-year visa, inside UK",
+            "details": "2 adults + 2 children, 60 months duration, inside UK application, all IHS exempt",
+            "breakdown": {
+                "Application fees": "£2,204 (£551 × 4 applicants)",
+                "Immigration Health Surcharge": "£0 (exempt)",
+                "Total": "£2,204"
+            }
+        },
+        {
+            "title": "Social care worker, 2-year extension, priority",
+            "details": "1 main applicant, 24 months duration, inside UK extension, priority service",
+            "breakdown": {
+                "Application fee": "£551",
+                "Immigration Health Surcharge": "£0 (exempt)",
+                "Priority Service": "£500",
+                "Total": "£1,051"
+            }
+        }
+    ]
+}

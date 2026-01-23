@@ -1,0 +1,62 @@
+{
+    "route_intro": "The Global Talent visa is for leaders or potential leaders in academia, research, arts and culture, or digital technology. This route replaced the Tier 1 (Exceptional Talent) visa and offers a fast track to settlement. You don't need a job offer or sponsor, giving you the flexibility to work for yourself or for employers. To apply, you must first get an endorsement from an approved UK body in your field (unless you've won an eligible prize). After 3 or 5 years (depending on your endorsement), you can apply for indefinite leave to remain. This is one of the UK's premium visa routes for exceptionally talented individuals.",
+    "faq_items": [
+        {
+            "question": "How do I get an endorsement for Global Talent?",
+            "answer": "You must apply for endorsement from an approved endorsing body in your field: UK Research and Innovation, Arts Council England, or Tech Nation. They'll assess whether you're a leader or potential leader in your field. Some applicants (e.g., winners of certain prestigious prizes) are automatically endorsed."
+        },
+        {
+            "question": "Do I need a job offer or sponsor?",
+            "answer": "No, one of the key benefits of the Global Talent visa is that you don't need a job offer or sponsor. You can work for any employer, be self-employed, or work in multiple roles. This gives you maximum flexibility."
+        },
+        {
+            "question": "How long can I stay and when can I settle?",
+            "answer": "Initially, your visa can be for up to 5 years. If you were endorsed as an 'exceptional talent' (leader), you can apply for ILR after 3 years. If endorsed as 'exceptional promise' (potential leader), you can apply after 5 years."
+        },
+        {
+            "question": "How much does the Global Talent visa cost?",
+            "answer": "The endorsement application costs £524 (unless you're automatically endorsed). The visa application fee is £716 from outside the UK or £716 from inside the UK. You'll also pay the Immigration Health Surcharge at £1,035 per year."
+        },
+        {
+            "question": "What fields are eligible for Global Talent?",
+            "answer": "Eligible fields include: science, medicine, engineering, humanities, social sciences, digital technology, arts (including fashion, architecture, film, and television), and culture. Each field has specific criteria assessed by specialized endorsing bodies."
+        },
+        {
+            "question": "Can my family join me?",
+            "answer": "Yes, your partner and children under 18 can apply as your dependants. They can work and study in the UK without restrictions. They'll need to pay their own visa fees and Immigration Health Surcharge."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Tech leader applying for 5-year visa from outside UK",
+            "details": "1 main applicant, 60 months duration, including endorsement fee",
+            "breakdown": {
+                "Endorsement fee": "£524",
+                "Application fee": "£716",
+                "Immigration Health Surcharge": "£5,175 (£1,035 × 5 years)",
+                "Total": "£6,415"
+            }
+        },
+        {
+            "title": "Researcher with family, 5 years, inside UK",
+            "details": "2 adults + 1 child, 60 months duration, all applicants",
+            "breakdown": {
+                "Endorsement fee": "£524",
+                "Application fees": "£2,148 (£716 × 3)",
+                "Immigration Health Surcharge": "£15,525 (£1,035 × 5 years × 3)",
+                "Total": "£18,197"
+            }
+        },
+        {
+            "title": "Prize winner (auto-endorsed) with priority, 3 years",
+            "details": "1 main applicant, 36 months duration, priority processing, no endorsement needed",
+            "breakdown": {
+                "Endorsement fee": "£0 (automatic)",
+                "Application fee": "£716",
+                "Immigration Health Surcharge": "£3,105 (£1,035 × 3 years)",
+                "Priority Service": "£500",
+                "Total": "£4,321"
+            }
+        }
+    ]
+}

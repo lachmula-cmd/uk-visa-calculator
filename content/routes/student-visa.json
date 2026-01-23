@@ -1,0 +1,66 @@
+{
+    "route_intro": "The Student visa (formerly Tier 4 General) allows international students to study in the UK at an approved education institution. You can apply if you've been offered a place on a course by a licensed student sponsor, can speak, read, write and understand English, and have enough money to support yourself and pay for your course. Your course must be with an approved educational institution that has a valid student sponsor licence. The institution will send you a Confirmation of Acceptance for Studies (CAS) which you'll need for your application.",
+    "faq_items": [
+        {
+            "question": "How long can I stay on a Student visa?",
+            "answer": "The length of your visa depends on your course. For courses at degree level or above, you can typically stay for the duration of your course plus additional time before and after. For courses below degree level, the maximum is usually 2 years. Your CAS letter will specify the exact dates."
+        },
+        {
+            "question": "Can I work on a Student visa?",
+            "answer": "Yes, you can usually work part-time during term (up to 20 hours per week) and full-time during holidays if you're studying at degree level. Work restrictions vary depending on your course level and institution. Check your visa conditions for specific limitations."
+        },
+        {
+            "question": "How much does the Student visa cost?",
+            "answer": "The visa fee is £490 if applying from outside the UK or £490 if applying from inside the UK. You'll also need to pay the Immigration Health Surcharge, which is £776 per year for students (discounted from the standard rate)."
+        },
+        {
+            "question": "Can my family join me?",
+            "answer": "Your partner and children can apply as dependants if you're studying a postgraduate level course (RQF level 7 or above) that lasts 9 months or longer, or you're a government-sponsored student studying a course that lasts longer than 6 months. Undergraduate students cannot usually bring dependants."
+        },
+        {
+            "question": "How much money do I need to show?",
+            "answer": "You must show you have enough money to pay for your course fees (for 1 academic year) and living costs. Living costs are £1,334 per month (for up to 9 months) if studying in London, or £1,023 per month if studying outside London. The exact amount depends on your circumstances and course location."
+        },
+        {
+            "question": "Can I stay in the UK after my course ends?",
+            "answer": "After completing an eligible degree course, you may be able to switch to a Graduate visa, which allows you to work in the UK for 2 years (or 3 years for PhD graduates). You can also switch to other visa routes like Skilled Worker if you have a job offer."
+        },
+        {
+            "question": "What English language level do I need?",
+            "answer": "You must prove your knowledge of English to at least CEFR level B2 for degree-level courses. Your education provider will confirm the specific requirements. Some applicants may be exempt if they're from a majority English-speaking country or have studied previous qualifications in English."
+        },
+        {
+            "question": "Can I extend my Student visa?",
+            "answer": "Yes, you can apply to extend your Student visa if you want to continue your studies in the UK. You must apply before your current visa expires and meet all the eligibility requirements, including having a new CAS from a licensed sponsor."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Undergraduate student, 3-year course, outside UK",
+            "details": "1 main applicant, 36 months duration, outside UK application, student IHS rate",
+            "breakdown": {
+                "Application fee": "£490",
+                "Immigration Health Surcharge": "£2,328 (£776 × 3 years)",
+                "Total": "£2,818"
+            }
+        },
+        {
+            "title": "Master's student with spouse, 18-month course, outside UK",
+            "details": "2 adults, 18 months duration, outside UK application, dependant allowed for postgraduate",
+            "breakdown": {
+                "Application fees": "£980 (£490 × 2)",
+                "Immigration Health Surcharge": "£2,328 (main: £776 × 1.5 years = £1,164; dependant: £1,035 × 1.5 years = £1,553, rounded)",
+                "Total": "£3,308"
+            }
+        },
+        {
+            "title": "PhD student, 4-year programme, inside UK extension",
+            "details": "1 main applicant, 48 months duration, inside UK extension",
+            "breakdown": {
+                "Application fee": "£490",
+                "Immigration Health Surcharge": "£3,104 (£776 × 4 years)",
+                "Total": "£3,594"
+            }
+        }
+    ]
+}

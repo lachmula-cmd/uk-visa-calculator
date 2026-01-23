@@ -1,0 +1,65 @@
+{
+    "route_intro": "Indefinite Leave to Remain (ILR) on the work route grants permanent settlement in the UK after you've held eligible work visas for a continuous period (usually 5 years). This allows you to live and work in the UK without time restrictions. To qualify, you must have spent the required continuous period in the UK on eligible work visas such as Skilled Worker, Global Talent, or similar routes. You'll also need to meet the English language requirement, pass the Life in the UK test, and meet the salary threshold. ILR is an important milestone toward British citizenship.",
+    "faq_items": [
+        {
+            "question": "How long do I need to work in the UK before applying for ILR?",
+            "answer": "You typically need 5 years of continuous residence on eligible work visas. Some routes like Global Talent may allow you to apply sooner (after 3 years). Make sure you haven't spent more than 180 days outside the UK in any 12-month period during this time."
+        },
+        {
+            "question": "What is the salary requirement for ILR?",
+            "answer": "If applying through the Skilled Worker route, you must be earning at least the general salary threshold (currently £38,700) or the going rate for your job, whichever is higher. Different routes may have different requirements."
+        },
+        {
+            "question": "Do I need to take any tests?",
+            "answer": "Yes, you must pass the Life in the UK test and prove your English language ability at CEFR level B1 (unless exempt). The Life in the UK test costs £50 and covers British traditions, history, and culture."
+        },
+        {
+            "question": "How much does ILR cost on the work route?",
+            "answer": "The application fee is £2,885. You do not need to pay the Immigration Health Surcharge for ILR, but there are no refunds if your application is refused."
+        },
+        {
+            "question": "Can my family apply for ILR at the same time?",
+            "answer": "Yes, if your dependants have been in the UK with you for the same period on dependant visas, they can apply for ILR at the same time. They'll each need to pay the application fee and meet the knowledge requirements."
+        },
+        {
+            "question": "What happens after I get ILR?",
+            "answer": "ILR allows you to live and work in the UK permanently. There's no time limit on your stay, and you can apply for most jobs and benefits. After holding ILR for 12 months, you can apply for British citizenship if you meet the requirements."
+        },
+        {
+            "question": "Can ILR be refused?",
+            "answer": "Yes, applications can be refused if you don't meet the requirements, haven't spent the required continuous period in the UK, or have a criminal record. It's important to carefully check all eligibility criteria before applying."
+        }
+    ],
+    "example_scenarios": [
+        {
+            "title": "Skilled Worker applying for ILR after 5 years",
+            "details": "1 main applicant, permanent settlement, inside UK application",
+            "breakdown": {
+                "Application fee": "£2,885",
+                "Life in the UK test": "£50",
+                "Immigration Health Surcharge": "£0 (not required)",
+                "Total": "£2,935"
+            }
+        },
+        {
+            "title": "Family of 4 applying for ILR together",
+            "details": "2 adults + 2 children, permanent settlement, all applicants",
+            "breakdown": {
+                "Application fees": "£11,540 (£2,885 × 4)",
+                "Life in the UK tests": "£200 (£50 × 4, children over 18)",
+                "Immigration Health Surcharge": "£0 (not required)",
+                "Total": "£11,740"
+            }
+        },
+        {
+            "title": "Single applicant with super priority service",
+            "details": "1 main applicant, permanent settlement, super priority processing",
+            "breakdown": {
+                "Application fee": "£2,885",
+                "Life in the UK test": "£50",
+                "Super Priority Service": "£800",
+                "Total": "£3,735"
+            }
+        }
+    ]
+}
