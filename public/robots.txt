@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ukvisacalculator.co.uk/sitemap.xml
+Sitemap: https://ukvisaprice.com/sitemap.xml
