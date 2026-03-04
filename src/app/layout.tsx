@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CookieNotice from "@/components/CookieNotice";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ukvisacalculator.co.uk"),
@@ -33,14 +34,6 @@ export const metadata: Metadata = {
     title: "UK Visa Cost Calculator 2025 — Estimate Your Immigration Fees",
     description:
       "Free tool to estimate UK visa application costs including IHS, priority services, and dependant fees. Based on official GOV.UK data.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "UK Visa Cost Calculator",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -106,6 +99,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <CookieNotice />
       </body>
     </html>
   );

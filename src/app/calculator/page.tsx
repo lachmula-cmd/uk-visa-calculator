@@ -10,7 +10,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://ukvisacalculator.co.uk/calculator" },
 };
 
-export default function CalculatorPage() {
+export default function CalculatorPage({
+  searchParams,
+}: {
+  searchParams: { visa?: string };
+}) {
+  const initialVisaId = searchParams.visa;
   return (
     <>
       {/* Page Header */}
@@ -56,7 +61,7 @@ export default function CalculatorPage() {
       {/* Calculator */}
       <div className="section bg-subtle">
         <div className="container-content">
-          <Calculator />
+          <Calculator initialVisaId={initialVisaId} />
         </div>
       </div>
 

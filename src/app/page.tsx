@@ -450,7 +450,7 @@ export default function HomePage() {
           <p className="text-white/70 mb-8 max-w-xl mx-auto">
             Use the calculator to get a full breakdown in under a minute — including IHS, dependants, and optional services.
           </p>
-          <Link href="/calculator" className="btn-primary text-base py-3.5 px-8 bg-white text-indigo-700 hover:bg-indigo-50">
+          <Link href="/calculator" className="btn-white text-base py-3.5 px-8">
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75l-2.489-2.489m0 0a3.375 3.375 0 1 0-4.773-4.773 3.375 3.375 0 0 0 4.774 4.774ZM21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>

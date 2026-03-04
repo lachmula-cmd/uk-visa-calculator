@@ -7,11 +7,11 @@ const footerLinks = {
     { href: "/how-it-works", label: "How It Works" },
     { href: "/guides", label: "Visa Guides" },
   ],
-  "Visa Types": [
-    { href: "/guides/skilled-worker-visa", label: "Skilled Worker Visa" },
-    { href: "/guides/student-visa", label: "Student Visa" },
-    { href: "/guides/family-visa", label: "Family Visa" },
-    { href: "/guides/visitor-visa", label: "Visitor Visa" },
+  "Visa Guides": [
+    { href: "/guides/skilled-worker-visa-costs", label: "Skilled Worker Visa" },
+    { href: "/guides/student-visa-costs", label: "Student Visa" },
+    { href: "/guides/family-visa-costs", label: "Family Visa" },
+    { href: "/guides/immigration-health-surcharge", label: "IHS Explained" },
   ],
   Company: [
     { href: "/about", label: "About Us" },
@@ -20,7 +20,6 @@ const footerLinks = {
   Legal: [
     { href: "/privacy-policy", label: "Privacy Policy" },
     { href: "/terms", label: "Terms of Use" },
-    { href: "/disclaimer", label: "Disclaimer" },
   ],
 };
 

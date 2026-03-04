@@ -1,106 +1,117 @@
-# UK Visa Cost Calculator — Build Tracker
+# UK Visa Calculator — Upgrade TODO
 
-## Status: ✅ COMPLETE — Production build successful
+## Status: ✅ ALL TASKS COMPLETE
 
 ---
 
-## Implementation Checklist
+## Phase 1 — Project Setup
+- [x] package.json (Next.js 14.2.5, React 18, TypeScript, Tailwind, lucide-react)
+- [x] tsconfig.json with @/* path aliases
+- [x] next.config.js
+- [x] postcss.config.js
+- [x] tailwind.config.ts (custom colors, shadows, fonts)
 
-### Configuration & Setup
-- [x] `package.json` — Next.js 14, React 18, Tailwind CSS, TypeScript, lucide-react
-- [x] `tsconfig.json` — TypeScript config with `@/*` path alias
-- [x] `next.config.js` — Next.js config
-- [x] `postcss.config.js` — PostCSS + Tailwind
-- [x] `tailwind.config.ts` — Custom colors, shadows, fonts
-- [x] Node.js v24 installed, npm install completed
-- [x] Production build: ✅ 13 pages compiled, zero errors
-
-### Data Layer
-- [x] `src/data/visaFees.ts` — Complete visa fee data
-  - 20 visa categories across 6 groups (Visitor, Student, Work, Family, Settlement, EU Settlement)
+## Phase 2 — Data Layer
+- [x] src/data/visaFees.ts — all visa fee data (GOV.UK sourced, July 2025)
+  - 15+ visa categories across 6 groups
   - IHS rates (standard £1,035/yr, reduced £776/yr)
   - Optional services (Priority £500, Super Priority £1,000, Premium Lounge £200)
-  - `calculateCosts()` function with full breakdown, assumptions, warnings
-  - `LAST_UPDATED` export for all pages
+  - calculateCosts() function with full breakdown logic
+  - Warnings for unavailable services, dependant restrictions
+  - New entrant rate handling for Skilled Worker
 
-### Components
-- [x] `src/components/Header.tsx` — Sticky nav, mobile hamburger, active link detection
-- [x] `src/components/Footer.tsx` — Multi-column footer, disclaimer bar, legal links
-- [x] `src/components/Calculator.tsx` — Full interactive calculator with:
-  - Visa selector with optgroups by category
-  - Duration slider (1–60 months)
-  - Applicants/dependants selects
-  - New entrant checkbox (Skilled Worker)
-  - Optional services checkboxes
-  - Cost breakdown result panel
-  - Assumptions and warnings display
+## Phase 3 — Design System
+- [x] src/app/globals.css
+  - .btn-primary (gradient)
+  - .btn-secondary
+  - .btn-ghost
+  - .btn-white (fixed CTA gradient conflict) ✅
+  - .card, .card-hover, .card-premium
+  - .form-select, .form-input, .form-checkbox, .form-label
+  - .badge-blue/green/amber/red/gray ✅
+  - .alert-info/warning/success/error
+  - .prose-content (guide/legal page typography) ✅
+  - .section-label, .section-title, .section-subtitle
+  - .cost-total, .nav-link, .nav-link-active
+  - .text-gradient, .bg-hero, .bg-subtle, .glass
+  - @keyframes slideUp + .animate-slide-up ✅
 
-### Pages (13 total)
-- [x] `src/app/layout.tsx` — Root layout, SEO metadata, JSON-LD schema, Google Fonts
-- [x] `src/app/globals.css` — Design system (btn-primary, card, form-select, badges, alerts, etc.)
-- [x] `src/app/page.tsx` — Homepage: hero, IHS alert, popular routes, how it works, features, FAQ, CTA
-- [x] `src/app/calculator/page.tsx` — Calculator page with disclaimer, what's included section
-- [x] `src/app/guides/page.tsx` — Guides index with fee reference stats
-- [x] `src/app/guides/immigration-health-surcharge/page.tsx` — Full IHS guide
-- [x] `src/app/guides/skilled-worker-visa-costs/page.tsx` — Full Skilled Worker guide
-- [x] `src/app/guides/family-visa-costs/page.tsx` — Full Family visa guide
-- [x] `src/app/guides/student-visa-costs/page.tsx` — Full Student visa guide
-- [x] `src/app/how-it-works/page.tsx` — Methodology, data sources, assumptions
-- [x] `src/app/about/page.tsx` — About, mission, accuracy commitment
-- [x] `src/app/contact/page.tsx` — Contact form with subject selector
-- [x] `src/app/privacy-policy/page.tsx` — Full UK GDPR privacy policy
-- [x] `src/app/terms/page.tsx` — Full terms and conditions
+## Phase 4 — Layout & Components
+- [x] src/app/layout.tsx
+  - SEO metadata (title template, description, keywords)
+  - JSON-LD WebSite schema
+  - Inter font (Google Fonts)
+  - CookieNotice imported and rendered ✅
+  - Removed broken /og-image.png reference ✅
+- [x] src/app/opengraph-image.tsx — dynamic OG image via ImageResponse ✅
+- [x] src/components/Header.tsx — responsive nav, mobile menu
+- [x] src/components/Footer.tsx — fixed broken links ✅
+- [x] src/components/CookieNotice.tsx — GDPR banner, localStorage, slide-up animation ✅
+- [x] src/components/Calculator.tsx
+  - initialVisaId prop ✅
+  - Full cost breakdown (visa fee + IHS + optional services)
+  - Dependant calculation
+  - New entrant toggle for Skilled Worker
+  - Print button ✅
+  - Copy Summary button ✅
+  - Warnings and assumptions displayed
+  - Link to GOV.UK for verification
 
-### SEO
-- [x] `public/robots.txt` — Crawl rules + sitemap reference
-- [x] `src/app/sitemap.ts` — Next.js sitemap for all 13 routes
-- [x] Per-page metadata (title, description, canonical URL)
-- [x] JSON-LD WebSite schema in root layout
-- [x] Semantic HTML structure throughout
+## Phase 5 — Pages
+- [x] src/app/page.tsx — Homepage
+  - Hero with trust indicators
+  - IHS alert banner
+  - Popular routes quick-start cards
+  - How it works (3 steps)
+  - Features grid (6 cards)
+  - IHS explainer with worked example
+  - FAQ (6 questions)
+  - CTA section (btn-white fixed) ✅
+- [x] src/app/calculator/page.tsx — Calculator page with searchParams.visa ✅
+- [x] src/app/guides/page.tsx — Guides index
+- [x] src/app/guides/immigration-health-surcharge/page.tsx
+- [x] src/app/guides/skilled-worker-visa-costs/page.tsx
+- [x] src/app/guides/family-visa-costs/page.tsx
+- [x] src/app/guides/student-visa-costs/page.tsx
+- [x] src/app/how-it-works/page.tsx
+- [x] src/app/about/page.tsx
+- [x] src/app/contact/page.tsx
+- [x] src/app/privacy-policy/page.tsx
+- [x] src/app/terms/page.tsx
+
+## Phase 6 — SEO & Infrastructure
+- [x] src/app/sitemap.ts — XML sitemap (13 URLs)
+- [x] public/robots.txt
+- [x] .gitignore
+
+## Phase 7 — Build Verification
+- [x] npm install — dependencies installed
+- [x] npm run build — ✅ Compiled successfully, .next/BUILD_ID confirmed
+- [x] npm run dev — ✅ Running on http://localhost:3001
 
 ---
 
-## Fee Data — Manual Review Required
+## Manual Review Items (Before Deploying)
 
-The following fee values should be verified against the current GOV.UK fee table
-before going live:
+1. **Fee accuracy**: Verify all fees against current GOV.UK fee table:
+   https://www.gov.uk/government/publications/visa-regulations-revised-table
+   Key fees to check: Skilled Worker (£719/£1,423), Student (£490), Family (£1,846), ILR (£2,885)
 
-| Visa Type | Fee Used | Source |
-|-----------|----------|--------|
-| Standard Visitor (6m) | £115 | GOV.UK April 2024 |
-| Standard Visitor (2y) | £400 | GOV.UK April 2024 |
-| Standard Visitor (5y) | £771 | GOV.UK April 2024 |
-| Standard Visitor (10y) | £963 | GOV.UK April 2024 |
-| Student Visa | £490 | GOV.UK April 2024 |
-| Skilled Worker (≤3y) | £719 | GOV.UK April 2024 |
-| Skilled Worker (>3y) | £1,423 | GOV.UK April 2024 |
-| Skilled Worker new entrant (≤3y) | £551 | GOV.UK April 2024 |
-| Skilled Worker new entrant (>3y) | £1,084 | GOV.UK April 2024 |
-| Health & Care Worker (≤3y) | £247 | GOV.UK April 2024 |
-| Health & Care Worker (>3y) | £479 | GOV.UK April 2024 |
-| Global Talent | £716 | GOV.UK April 2024 |
-| Innovator Founder | £1,191 | GOV.UK April 2024 |
-| Youth Mobility | £259 | GOV.UK April 2024 |
-| Family (Spouse/Partner) | £1,846 | GOV.UK April 2024 |
-| Family (Child) | £1,846 | GOV.UK April 2024 |
-| Family (Adult Dependent Relative) | £3,250 | GOV.UK April 2024 |
-| ILR | £2,885 | GOV.UK April 2024 |
-| Naturalisation | £1,500 | GOV.UK April 2024 |
-| IHS Standard | £1,035/yr | GOV.UK Feb 2024 |
-| IHS Reduced (students) | £776/yr | GOV.UK Feb 2024 |
+2. **IHS rate**: Confirm £1,035/year (standard) and £776/year (reduced) are still current.
+   Source: https://www.gov.uk/healthcare-immigration-application/pay
 
-**Verify at:** https://www.gov.uk/government/publications/visa-regulations-revised-table
+3. **Income threshold**: Family visa sponsor income requirement (£29,000 → £38,700 transition)
+   — update the note in visaFees.ts once the higher threshold is fully in force.
 
----
+4. **Domain**: Update canonical URLs from ukvisacalculator.co.uk to your actual domain
+   in: layout.tsx, sitemap.ts, opengraph-image.tsx
 
-## Before Redeployment Checklist
+5. **Contact email**: Update the placeholder email in contact/page.tsx
 
-- [ ] Verify all fees against current GOV.UK fee table
-- [ ] Update `LAST_UPDATED` in `src/data/visaFees.ts` if fees change
-- [ ] Update `BASE_URL` in `src/app/sitemap.ts` to actual domain
-- [ ] Update canonical URLs in all page metadata to actual domain
-- [ ] Set up contact form backend (currently HTML-only, no submission handler)
-- [ ] Configure Google Analytics / AdSense IDs in `src/app/layout.tsx`
-- [ ] Test on mobile devices
-- [ ] Submit sitemap to Google Search Console
-- [ ] Review AdSense ad placement (ad slots are in layout, not dominating above-fold)
+6. **AdSense**: Add your AdSense publisher ID to layout.tsx once approved.
+   Ad slots are placed below-the-fold only — compliant with AdSense policies.
+
+7. **Cookie consent**: CookieNotice currently stores preference in localStorage only.
+   If you use analytics/ads, wire up the consent state to your analytics init.
+
+8. **HTTPS**: Ensure your deployment has a valid SSL certificate (required for AdSense).

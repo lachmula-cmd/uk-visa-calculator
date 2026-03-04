@@ -32,12 +32,19 @@ function formatGBP(amount: number): string {
   }).format(amount);
 }
 
-export default function Calculator() {
+export default function Calculator({ initialVisaId = "skilled-worker-3y" }: { initialVisaId?: string }) {
   const visasByGroup = getVisasByGroup();
 
+  // Validate that the initialVisaId exists; fall back to default if not
+  const validInitialId = VISA_CATEGORIES.find((v) => v.id === initialVisaId)
+    ? initialVisaId
+    : "skilled-worker-3y";
+
   const [input, setInput] = useState<CalculatorInput>({
-    visaId: "skilled-worker-3y",
-    durationMonths: 36,
+    visaId: validInitialId,
+    durationMonths: DEFAULT_DURATION_BY_GROUP[
+      VISA_CATEGORIES.find((v) => v.id === validInitialId)?.group ?? "Work"
+    ] ?? 36,
     numApplicants: 1,
     numDependants: 0,
     addPriority: false,
@@ -85,10 +92,14 @@ export default function Calculator() {
     }, 100);
   }, [input]);
 
+  const [copied, setCopied] = useState(false);
+
   const handleReset = () => {
     setInput({
-      visaId: "skilled-worker-3y",
-      durationMonths: 36,
+      visaId: validInitialId,
+      durationMonths: DEFAULT_DURATION_BY_GROUP[
+        VISA_CATEGORIES.find((v) => v.id === validInitialId)?.group ?? "Work"
+      ] ?? 36,
       numApplicants: 1,
       numDependants: 0,
       addPriority: false,
@@ -99,6 +110,32 @@ export default function Calculator() {
     setResult(null);
     setHasCalculated(false);
   };
+
+  const handlePrint = () => {
+    window.print();
+  };
+
+  const handleCopySummary = useCallback(() => {
+    if (!result || !selectedVisa) return;
+    const totalPeople = input.numApplicants + input.numDependants;
+    const lines = [
+      `UK Visa Cost Estimate — ${selectedVisa.label}`,
+      `Generated: ${new Date().toLocaleDateString("en-GB")} | Source: ukvisacalculator.co.uk`,
+      ``,
+      `COST BREAKDOWN`,
+      `──────────────────────────────`,
+      ...result.breakdown.map((item) => `${item.label}: ${formatGBP(item.amount)}${item.note ? ` (${item.note})` : ""}`),
+      `──────────────────────────────`,
+      `ESTIMATED TOTAL: ${formatGBP(result.grandTotal)}`,
+      `(for ${totalPeople} person${totalPeople > 1 ? "s" : ""})`,
+      ``,
+      `DISCLAIMER: This is an estimate only. Always verify fees at gov.uk before applying.`,
+    ];
+    navigator.clipboard.writeText(lines.join("\n")).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    });
+  }, [result, selectedVisa, input]);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
@@ -453,6 +490,41 @@ export default function Calculator() {
                 </div>
               </div>
             )}
+
+            {/* Action Buttons */}
+            <div className="flex gap-2">
+              <button
+                onClick={handleCopySummary}
+                className="flex-1 btn-secondary justify-center text-sm py-2.5"
+                title="Copy cost summary to clipboard"
+              >
+                {copied ? (
+                  <>
+                    <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                    </svg>
+                    <span className="text-emerald-700">Copied!</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
+                    </svg>
+                    Copy Summary
+                  </>
+                )}
+              </button>
+              <button
+                onClick={handlePrint}
+                className="flex-1 btn-secondary justify-center text-sm py-2.5"
+                title="Print this estimate"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+                </svg>
+                Print
+              </button>
+            </div>
 
             {/* Verify CTA */}
             <a
