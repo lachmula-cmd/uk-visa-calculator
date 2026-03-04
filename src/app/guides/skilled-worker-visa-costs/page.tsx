@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Skilled Worker Visa Costs 2025 — Complete Fee Breakdown",
   description:
     "Full cost breakdown for the UK Skilled Worker visa: application fees (£719–£1,423), IHS, Certificate of Sponsorship, priority services, and dependant costs. Worked examples for individuals and families.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/guides/skilled-worker-visa-costs" },
+  alternates: { canonical: "https://ukvisaprice.com/guides/skilled-worker-visa-costs" },
 };
 
 const faqs = [

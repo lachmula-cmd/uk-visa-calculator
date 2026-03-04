@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Contact Us — UK Visa Cost Calculator",
   description:
     "Get in touch with the UK Visa Cost Calculator team. Report a fee error, suggest an improvement, or ask a question about the calculator.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/contact" },
+  alternates: { canonical: "https://ukvisaprice.com/contact" },
 };
 
 export default function ContactPage() {

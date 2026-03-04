@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "UK Visa Guides — Costs, IHS, and Immigration Explained",
   description:
     "Practical guides to UK visa costs, the Immigration Health Surcharge, Skilled Worker fees, family visa costs, and more. Based on official GOV.UK data.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/guides" },
+  alternates: { canonical: "https://ukvisaprice.com/guides" },
 };
 
 const guides = [

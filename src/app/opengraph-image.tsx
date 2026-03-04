@@ -114,7 +114,7 @@ export default function OGImage() {
             fontSize: "20px",
           }}
         >
-          ukvisacalculator.co.uk
+          ukvisaprice.com
         </div>
       </div>
     ),

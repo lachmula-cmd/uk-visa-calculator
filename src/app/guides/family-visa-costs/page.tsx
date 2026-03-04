@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "UK Family Visa Costs 2025 — Spouse, Partner & Child Fees",
   description:
     "Complete guide to UK family visa costs: spouse/partner visa (£1,846), child visa (£1,846), IHS, income requirements, and the costs most applicants forget. Based on official GOV.UK data.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/guides/family-visa-costs" },
+  alternates: { canonical: "https://ukvisaprice.com/guides/family-visa-costs" },
 };
 
 const faqs = [

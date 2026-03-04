@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About UK Visa Cost Calculator — Our Mission & Approach",
   description:
     "Learn about the UK Visa Cost Calculator: why we built it, how we maintain fee accuracy, our commitment to honest and transparent information, and how to contact us.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/about" },
+  alternates: { canonical: "https://ukvisaprice.com/about" },
 };
 
 export default function AboutPage() {

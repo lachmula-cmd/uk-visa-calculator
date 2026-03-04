@@ -120,7 +120,7 @@ export default function Calculator({ initialVisaId = "skilled-worker-3y" }: { in
     const totalPeople = input.numApplicants + input.numDependants;
     const lines = [
       `UK Visa Cost Estimate — ${selectedVisa.label}`,
-      `Generated: ${new Date().toLocaleDateString("en-GB")} | Source: ukvisacalculator.co.uk`,
+      `Generated: ${new Date().toLocaleDateString("en-GB")} | Source: ukvisaprice.com`,
       ``,
       `COST BREAKDOWN`,
       `──────────────────────────────`,

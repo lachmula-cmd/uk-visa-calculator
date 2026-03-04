@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "UK Visa Cost Calculator 2025 — Estimate Your Immigration Fees",
   description:
     "Free UK visa cost calculator. Estimate visa application fees, Immigration Health Surcharge (IHS), priority services, and dependant costs for all major UK visa routes. Based on official GOV.UK fee data.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk" },
+  alternates: { canonical: "https://ukvisaprice.com" },
 };
 
 const features = [

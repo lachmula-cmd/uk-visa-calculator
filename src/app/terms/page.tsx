@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: "Terms & Conditions — UK Visa Cost Calculator",
   description:
     "Terms and conditions for using the UK Visa Cost Calculator. Please read these terms carefully before using the site.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/terms" },
+  alternates: { canonical: "https://ukvisaprice.com/terms" },
 };
 
 const EFFECTIVE_DATE = "1 July 2025";
 const SITE_NAME = "UK Visa Cost Calculator";
-const SITE_URL = "https://ukvisacalculator.co.uk";
+const SITE_URL = "https://ukvisaprice.com";
 
 export default function TermsPage() {
   return (

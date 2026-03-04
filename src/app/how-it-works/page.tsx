@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "How the UK Visa Cost Calculator Works — Methodology & Data Sources",
   description:
     "Understand exactly how the UK Visa Cost Calculator estimates your total application cost: fee sources, IHS calculation method, assumptions made, and what the estimate does and does not include.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/how-it-works" },
+  alternates: { canonical: "https://ukvisaprice.com/how-it-works" },
 };
 
 export default function HowItWorksPage() {

@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: "Privacy Policy — UK Visa Cost Calculator",
   description:
     "Privacy policy for the UK Visa Cost Calculator. Learn how we handle your data, what cookies we use, and your rights under UK GDPR.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/privacy-policy" },
+  alternates: { canonical: "https://ukvisaprice.com/privacy-policy" },
 };
 
 const EFFECTIVE_DATE = "1 July 2025";
 const SITE_NAME = "UK Visa Cost Calculator";
-const SITE_URL = "https://ukvisacalculator.co.uk";
+const SITE_URL = "https://ukvisaprice.com";
 
 export default function PrivacyPolicyPage() {
   return (

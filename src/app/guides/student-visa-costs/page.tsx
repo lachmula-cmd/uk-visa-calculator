@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "UK Student Visa Costs 2025 — Application Fee, IHS & Full Budget Guide",
   description:
     "Complete cost guide for the UK Student visa: £490 application fee, IHS at £776/year, CAS requirements, dependant costs, and the full budget breakdown international students need before applying.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/guides/student-visa-costs" },
+  alternates: { canonical: "https://ukvisaprice.com/guides/student-visa-costs" },
 };
 
 const faqs = [

@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://ukvisacalculator.co.uk";
+const BASE_URL = "https://ukvisaprice.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

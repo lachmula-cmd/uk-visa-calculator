@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "UK Visa Cost Calculator — Full Fee Breakdown",
   description:
     "Calculate the exact cost of your UK visa application. Includes visa fee, Immigration Health Surcharge (IHS), priority services, and dependant costs. Free tool based on official GOV.UK data.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/calculator" },
+  alternates: { canonical: "https://ukvisaprice.com/calculator" },
 };
 
 export default function CalculatorPage({

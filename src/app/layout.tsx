@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import CookieNotice from "@/components/CookieNotice";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ukvisacalculator.co.uk"),
+  metadataBase: new URL("https://ukvisaprice.com"),
   title: {
     default: "UK Visa Cost Calculator 2025 — Estimate Your Immigration Fees",
     template: "%s | UK Visa Cost Calculator",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://ukvisacalculator.co.uk",
+    url: "https://ukvisaprice.com",
     siteName: "UK Visa Cost Calculator",
     title: "UK Visa Cost Calculator 2025 — Estimate Your Immigration Fees",
     description:
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://ukvisacalculator.co.uk",
+    canonical: "https://ukvisaprice.com",
   },
 };
 
@@ -82,13 +82,13 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "UK Visa Cost Calculator",
-              url: "https://ukvisacalculator.co.uk",
+              url: "https://ukvisaprice.com",
               description:
                 "Free tool to estimate UK visa application costs including Immigration Health Surcharge, priority services, and dependant fees.",
               potentialAction: {
                 "@type": "SearchAction",
                 target:
-                  "https://ukvisacalculator.co.uk/calculator?visa={search_term_string}",
+                  "https://ukvisaprice.com/calculator?visa={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Immigration Health Surcharge (IHS) Explained — Rates, Exemptions & Calculator",
   description:
     "Everything you need to know about the UK Immigration Health Surcharge: current rates (£1,035/year standard, £776/year students), who pays it, who is exempt, how it is calculated, and how the 2024 increase affects your total cost.",
-  alternates: { canonical: "https://ukvisacalculator.co.uk/guides/immigration-health-surcharge" },
+  alternates: { canonical: "https://ukvisaprice.com/guides/immigration-health-surcharge" },
 };
 
 const faqs = [
