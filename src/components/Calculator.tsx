@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {
   VISA_CATEGORIES,
@@ -32,13 +33,16 @@ function formatGBP(amount: number): string {
   }).format(amount);
 }
 
-export default function Calculator({ initialVisaId = "skilled-worker-3y" }: { initialVisaId?: string }) {
+export default function Calculator() {
+  const searchParams = useSearchParams();
   const visasByGroup = getVisasByGroup();
 
-  // Validate that the initialVisaId exists; fall back to default if not
-  const validInitialId = VISA_CATEGORIES.find((v) => v.id === initialVisaId)
-    ? initialVisaId
-    : "skilled-worker-3y";
+  // Read ?visa= from URL, validate it exists, fall back to default
+  const urlVisaId = searchParams?.get("visa") ?? null;
+  const validInitialId =
+    urlVisaId && VISA_CATEGORIES.find((v) => v.id === urlVisaId)
+      ? urlVisaId
+      : "skilled-worker-3y";
 
   const [input, setInput] = useState<CalculatorInput>({
     visaId: validInitialId,
@@ -93,6 +97,15 @@ export default function Calculator({ initialVisaId = "skilled-worker-3y" }: { in
   }, [input]);
 
   const [copied, setCopied] = useState(false);
+
+  // If the URL param changes after mount (e.g. navigating with ?visa=), sync state
+  useEffect(() => {
+    const paramId = searchParams?.get("visa") ?? null;
+    if (paramId && VISA_CATEGORIES.find((v) => v.id === paramId)) {
+      handleVisaChange(paramId);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
 
   const handleReset = () => {
     setInput({

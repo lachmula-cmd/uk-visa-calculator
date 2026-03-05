@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import Calculator from "@/components/Calculator";
 import { LAST_UPDATED } from "@/data/visaFees";
 
@@ -10,12 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://ukvisaprice.com/calculator" },
 };
 
-export default function CalculatorPage({
-  searchParams,
-}: {
-  searchParams: { visa?: string };
-}) {
-  const initialVisaId = searchParams.visa;
+export default function CalculatorPage() {
   return (
     <>
       {/* Page Header */}
@@ -58,10 +54,19 @@ export default function CalculatorPage({
         </div>
       </div>
 
-      {/* Calculator */}
+      {/* Calculator — reads ?visa= param from URL client-side */}
       <div className="section bg-subtle">
         <div className="container-content">
-          <Calculator initialVisaId={initialVisaId} />
+          <Suspense fallback={
+            <div className="card p-12 flex items-center justify-center min-h-[400px]">
+              <div className="text-center">
+                <div className="w-10 h-10 border-2 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mx-auto mb-4" />
+                <p className="text-sm text-slate-500">Loading calculator…</p>
+              </div>
+            </div>
+          }>
+            <Calculator />
+          </Suspense>
         </div>
       </div>
 
