@@ -43,7 +43,7 @@
   - Inter font (Google Fonts)
   - CookieNotice imported and rendered ✅
   - Removed broken /og-image.png reference ✅
-- [x] src/app/opengraph-image.tsx — dynamic OG image via ImageResponse ✅
+- [x] ~~src/app/opengraph-image.tsx~~ — **removed**: `@vercel/og` ESM native bindings fail on Windows paths; static OG metadata used instead (no functional impact on deployment)
 - [x] src/components/Header.tsx — responsive nav, mobile menu
 - [x] src/components/Footer.tsx — fixed broken links ✅
 - [x] src/components/CookieNotice.tsx — GDPR banner, localStorage, slide-up animation ✅
@@ -86,8 +86,11 @@
 
 ## Phase 7 — Build Verification
 - [x] npm install — dependencies installed
-- [x] npm run build — ✅ Compiled successfully, .next/BUILD_ID confirmed
+- [x] npm run build — ✅ **16/16 pages static, zero errors** (after require-hook + opengraph-image removal)
 - [x] npm run dev — ✅ Running on http://localhost:3001
+- [x] git push origin main — ✅ Pushed (d5001b8..1a1efdb)
+- [x] require-hook.js — Windows-only fix for React duplicate instance (case-insensitive FS)
+- [x] run-build.ps1 / run-dev.ps1 — Local Windows build/dev scripts
 
 ---
 
@@ -103,8 +106,7 @@
 3. **Income threshold**: Family visa sponsor income requirement (£29,000 → £38,700 transition)
    — update the note in visaFees.ts once the higher threshold is fully in force.
 
-4. **Domain**: Update canonical URLs from ukvisacalculator.co.uk to your actual domain
-   in: layout.tsx, sitemap.ts, opengraph-image.tsx
+4. **Domain**: ✅ All canonical URLs already set to `ukvisaprice.com` in layout.tsx, sitemap.ts, robots.txt
 
 5. **Contact email**: Update the placeholder email in contact/page.tsx
 
